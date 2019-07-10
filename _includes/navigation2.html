@@ -1,0 +1,154 @@
+<header id="header" class="header style-3 sticky-header">
+
+  <!-- searchform -->
+
+  <div class="searchform-wrap">
+    <div class="vc-child h-inherit">
+
+      <form>
+        <button type="submit" class="search-button"></button>
+        <div class="wrapper">
+          <input type="text" name="search" placeholder="Start typing...">
+        </div>
+      </form>
+
+      <button class="close-search-form"></button>
+
+    </div>
+  </div>
+
+  <!-- Pre header -->
+
+  <div class="pre-header">
+
+    <div class="container extra">
+
+      <div class="flex-row flex-justify">
+
+        <p><i class="licon-map-marker"></i> 14 Penn Plaza, Suite 1517, New York, NY 10122</p>
+
+        <div class="socials">
+
+          <div class="lang-area">
+
+            <a href="#" class="current">En</a>
+            &nbsp;|&nbsp;
+            <a href="#">中文</a>
+
+          </div>
+
+          <ul class="social-icons style-2">
+
+            <li><a href="#"><i class="icon-facebook"></i></a></li>
+            <li><a href="#"><i class="icon-twitter"></i></a></li>
+            <li><a href="#"><i class="icon-gplus-3"></i></a></li>
+            <li><a href="#"><i class="icon-linkedin-3"></i></a></li>
+
+          </ul>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Top header -->
+
+  <div class="top-header">
+
+    <div class="container extra">
+
+      <div class="flex-row flex-center flex-justify">
+
+        <!-- logo -->
+
+        <div class="logo-wrap">
+
+          <a href={{"/" | absolute_url}} class="logo"><img src={{"/images/logo2.png" | absolute_url}} alt=""></a>
+
+        </div>
+
+        <!-- Contact info -->
+
+        <ul class="contact-info style-2">
+          <li class="info-item with-icon">
+            <i class="licon-telephone"></i>
+            <div class="pre">call Us Today</div>
+            <div class="item-info">
+              <span content="telephone=no">631-888-3636</span>
+            </div>
+          </li>
+        </ul>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- - - - - - - - - - - - / Mobile Menu - - - - - - - - - - - - - -->
+
+  <!--main menu-->
+
+  <div class="menu-holder">
+
+    <div class="container extra">
+
+      <div class="menu-wrap flex-row flex-justify flex-center">
+
+        <div class="nav-item">
+
+          <!-- - - - - - - - - - - - - - Navigation - - - - - - - - - - - - - - - - -->
+
+          <nav id="main-navigation" class="main-navigation">
+            <ul id="menu" class="clearfix">
+              <li class="{% if page.url == '/' %}current{% endif %}"><a href={{"/" | absolute_url}}>主页</a>
+              </li>
+              <li class="dropdown"><a href="#">业务领域</a>
+                <!--sub menu-->
+                <div class="sub-menu-wrap mega-menu flex-row">
+                  <ul>
+                    <li class="{% if page.url == '/practice1.html' %}current{% endif %}"><a href={{"/practice1.html" | absolute_url}}>移民</a></li>
+                    <li class="{% if page.url == '/practice2.html' %}current{% endif %}"><a href={{"/practice2.html" | absolute_url}}>房地产</a></li>
+                    <li class="{% if page.url == '/practice3.html' %}current{% endif %}"><a href={{"/practice3.html" | absolute_url}}>商业服务</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="{% if page.url == '/attorneys.html' %}current{% endif %}"><a href={{"/attorneys.html" | absolute_url}}>专业团队</a>
+              </li>
+              <li class="{% if page.url == '/about.html' %}current{% endif %}"><a href={{"/about.html" | absolute_url}}>关于我们</a></li>
+              <!--<li class="dropdown"><a href="#">Blog</a>-->
+              <!--&lt;!&ndash;sub menu&ndash;&gt;-->
+              <!--<div class="sub-menu-wrap">-->
+              <!--<ul>-->
+              <!--<li><a href="blog_classic.html">Classic</a></li>-->
+              <!--<li><a href="blog_masonry.html">Masonry</a></li>-->
+              <!--<li><a href="blog_single.html">Single Blog Post</a></li>-->
+              <!--</ul>-->
+              <!--</div>-->
+              <!--</li>-->
+              <li class="{% if page.url == '/contact.html' %}current{% endif %}"><a href={{"/contact.html" | absolute_url}}>联系我们</a> </li>
+              <li class="{% if page.url == '/blog.html' %}current{% endif %}"><a href={{"/blog.html" | absolute_url}}>中文 blog</a> </li>
+            </ul>
+          </nav>
+
+          <!-- - - - - - - - - - - - - end Navigation - - - - - - - - - - - - - - - -->
+
+        </div>
+
+        <div class="search-holder">
+
+          <!--<a href="#" class="btn btn-big btn-style-2">Free Consultation</a>-->
+<!---->
+          <!--<button type="button" class="search-button"></button>-->
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</header>
