@@ -1,0 +1,44 @@
+.headerDescription{
+  display: block !important;
+  font-size: 22px !important;
+  font-weight: 800 !important;
+  text-align: center !important;
+  margin-top: 10% !important;
+}
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 300px !important;
+  width: 100%;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 300px !important;
+  width: 100% !important;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.sidebar h6{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: bolder;
+}
+
+.sidebar a.current{
+  color: #d46703;
+}
+
+.contentWrapper ul{
+  list-style: disc;
+  padding-left: 20px;
+  margin-top: -5px;
+  margin-bottom: 15px;
+  padding-top: 0px;
+  padding-bottom: 15px;
+}

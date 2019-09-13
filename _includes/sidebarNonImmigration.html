@@ -1,0 +1,12 @@
+<aside id="sidebar" class="sidebar col-md-4 col-sm-12">
+  <div class="widget with-bg"><h5 class="widget-title">Non-Immigration</h5><ul class=""><li>
+<!--        <a href="javascript:void(0)" class="toggle-btn toggle">Immigration</a>-->
+        <ul class="">
+<!--          <li><h6>Real Estate</h6></li>-->
+          <li><a class="{% if page.url == '/NonImmigration/1/' %}current{% endif %}" href={{"/NonImmigration/1/" | absolute_url}}>Real Estate</a></li>
+<!--          <li><h6>General Corporate</h6></li>-->
+          <li><a class="{% if page.url == '/NonImmigration/2/' %}current{% endif %}" href={{"/NonImmigration/2/" | absolute_url}}>General Corporate</a></li>
+        </ul>
+      </li>
+    </ul></div>
+</aside>

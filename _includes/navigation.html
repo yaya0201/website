@@ -43,19 +43,19 @@
 
             <nav id="main-navigation" class="main-navigation">
               <ul id="menu" class="clearfix">
-                <li class="{% if page.url == '/' %}current{% endif %}"><a href={{"/" | absolute_url}}>主页</a>
-                </li>
-                <li class="dropdown"><a href="#">业务领域</a>
+                <li class="{% if page.url == '/' %}current{% endif %}"><a href={{"/" | absolute_url}}>Home</a> </li>
+                <li class="{% if page.url == '/about.html' %}current{% endif %}"><a href={{"/about" | absolute_url}}>About Us</a> </li>
+                <li class="dropdown"><a href="#">Services</a>
                   <!--sub menu-->
                   <div class="sub-menu-wrap mega-menu flex-row">
                     <ul>
-                      <li class="{% if page.url == '/practice1.html' %}current{% endif %}"><a href={{"/practice1.html" | absolute_url}}>移民</a></li>
-                      <li class="{% if page.url == '/practice2.html' %}current{% endif %}"><a href={{"/practice2.html" | absolute_url}}>房地产</a></li>
-                      <li class="{% if page.url == '/practice3.html' %}current{% endif %}"><a href={{"/practice3.html" | absolute_url}}>商业服务</a></li>
+                      <li class="{% if page.url == '/Immigration/' %}current{% endif %}"><a href={{"/Immigration/" | absolute_url}}>Non-Immigration</a></li>
+                      <li class="{% if page.url == '/NonImmigration/1/' %}current{% endif %}"><a href={{"/NonImmigration/1/" | absolute_url}}>Immigration</a></li>
+<!--                      <li class="{% if page.url == '/practice3.html' %}current{% endif %}"><a href={{"/practice3.html" | absolute_url}}>商业服务</a></li>-->
                     </ul>
                   </div>
                 </li>
-                <li class="{% if page.url == '/attorneys.html' %}current{% endif %}"><a href={{"/attorneys.html" | absolute_url}} >专业团队</a>
+                <li class="{% if page.url == '/attorneys.html' %}current{% endif %}"><a href={{"/attorneys.html" | absolute_url}} >Professionals</a>
                 </li>
 <!--                <li class="{% if page.url == '/about.html' %}current{% endif %}"><a href={{"/about.html" | absolute_url}}>关于我们</a></li>-->
                 <!--<li class="dropdown"><a href="#">Blog</a>-->
@@ -68,8 +68,8 @@
                     <!--</ul>-->
                   <!--</div>-->
                 <!--</li>-->
-                <li class="{% if page.url == '/contact.html' %}current{% endif %}"><a href={{"/contact.html" | absolute_url}}>联系我们</a> </li>
-                <li class="{% if page.url == '/blog.html' %}current{% endif %}"><a href={{"/blog.html" | absolute_url}}>中文 blog</a> </li>
+                <li class="{% if page.url == '/blog.html' %}current{% endif %}"><a href={{"/blog.html" | absolute_url}}>News</a> </li>
+                <li class="{% if page.url == '/contact.html' %}current{% endif %}"><a href={{"/contact.html" | absolute_url}}>Contact Us</a> </li>
               </ul>
             </nav>
 
